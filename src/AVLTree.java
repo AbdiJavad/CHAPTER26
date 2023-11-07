@@ -260,8 +260,8 @@ import Bst.BST;1 public class AVLTree<E> extends BST<E> {
           }
 
         262 protected static class AVLTreeNode<E> extends BST.TreeNode<E> {
-263 protected int height = 0; // New data field
-264
+  protected int height = 0; // New data field
+ 
         265 public AVLTreeNode(E o) {
             266 super(o);
             267 }
